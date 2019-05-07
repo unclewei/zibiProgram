@@ -1,0 +1,4 @@
+<view animation="{{animationData}}" hidden="{{!isShow}}" class="modal">
+  <view data-type="mask" catchtap="hideModal" catchtouchmove class="modal-mask"></view>
+  <slot></slot>
+</view>

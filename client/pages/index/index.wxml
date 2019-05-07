@@ -3,3 +3,5 @@
   <switch checked='{{isZiBi}}' bindchange='switchChange' />
   <view class='time'>{{zibiTime}}</view>
 </view>
+
+<zibi-modal id='zibiModal'/>

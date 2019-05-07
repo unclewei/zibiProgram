@@ -13,6 +13,7 @@ Page({
   },
 
   onLoad(){
+    this.zibiModal = this.selectComponent('#zibiModal')
     let zibiTimeStorage = wx.getStorageSync('zibiTime')
     if(zibiTimeStorage){
       this.setData({
@@ -51,6 +52,7 @@ Page({
   closeZibi() {
     wx.removeStorageSync('zibiTime')
     console.log("本次自闭时间："+this.data.zibiTime)
+    // this.zibiModal.showModal()
     //todo:弹窗，高知时间，配图
     this.cleanIntervalAll()
     this.setData({

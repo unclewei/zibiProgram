@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "自闭主页"
+  "navigationBarTitleText": "自闭主页",
+  "usingComponents": {
+    "zibi-modal": "/components/zibiModal/zibiModal"
+  }
 }

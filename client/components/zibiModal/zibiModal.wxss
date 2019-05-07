@@ -1,0 +1,81 @@
+.modal-container {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  width: 500rpx;
+  z-index: 2011;
+  text-align: center;
+}
+
+.modal-body {
+  padding: 80rpx 90rpx 50rpx;
+  width: 500rpx;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4rpx 14rpx rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.tip-addMini {
+  position: fixed;
+  right: 60rpx;
+  top: 10rpx;
+  height: 131rpx;
+  width: 354rpx;
+  z-index: 9999;
+}
+
+.tips-text-big {
+  color: #333;
+  font-size: 32rpx;
+  margin-bottom: 10rpx;
+}
+
+.tips-text {
+  color: #999;
+  font-size: 28rpx;
+}
+
+.img-view {
+  width: 250rpx;
+  height: 250rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book {
+  margin-top: 30rpx;
+  width: 250rpx;
+  height: 250rpx;
+  background-color: #999;
+}
+
+.close {
+  margin-top: 40rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.modal-text {
+  margin: 0 auto;
+  margin-top: 20rpx;
+  width: 240rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+.close-btn{
+  width: 80%;
+  height: 60rpx;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1rpx #d7d7d7 solid;
+  color: #999;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+}

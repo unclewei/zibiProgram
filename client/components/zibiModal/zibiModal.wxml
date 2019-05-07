@@ -1,0 +1,10 @@
+<base-modal id="baseModal" animated="{{animated}}" backdrop="{{backdrop}}" backgroundColor="#fff">
+  <view class="modal-container" catchtouchmove>
+    <view class='modal-body'>
+      <view class='tips-text-big'>统计</view>
+      <view class='tips-text'>本次自闭了{{zibiTime}}</view>
+      <image class='book' mode='widthFix' src='./book.png' bindtap='showOption' />
+      <view class='close-btn' catchtap='hideModal'>我想开了</view>
+    </view>
+  </view>
+</base-modal>
